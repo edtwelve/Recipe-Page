@@ -1,5 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --acento: hsl(14, 45%, 36%);
+    --prep: hsl(332, 51%, 32%);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%)
+}
+
+body {
+    width: 100%;
+}
+
+section {
+    border: 1px solid red;
+}
+.container {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.omelette-img {
+    width: 100%;
+}
+
+span {
+    font-weight: 600;
+}
+
+.intro {
+    width: 100%;
+}
+
+.intro h1 {
+    color:black;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+}
+
+/* .intro p {
+    padding: 1.25em 0;
+} */
+
+h2 {
+    color: var(--acento);
+}
+
+
+.prepTime {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+    border-radius: 0.7em;
+}
+
+.prepTime h3 {
+    color: var(--prep);
+    padding-bottom: 0.5em;
+}
+
+.prepTime ul {
+    padding: 0 2em;
+    margin: 0em 0;
+}
+
+.prepTime ul li + li {
+    margin-top: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 0.6em 0;
+}
+
+.nutrition_values {
+    font-weight: bold;
+    color: var(--acento);
+}
+
+table tr + tr {
+    border-top: 1px solid hsl(30, 18%, 87%);
 }
