@@ -18,8 +18,10 @@ body {
 }
 
 section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding: 1em 0;
 }
+
 .container {
     margin: 0 auto;
     padding: 2rem;
@@ -27,10 +29,6 @@ section {
 
 .omelette-img {
     width: 100%;
-}
-
-span {
-    font-weight: 600;
 }
 
 .intro {
@@ -43,6 +41,7 @@ span {
 
 h1, h2 {
     font-family: "Young Serif", serif;
+    margin-bottom: 1em;
 }
 
 /* .intro p {
@@ -53,22 +52,29 @@ h2 {
     color: var(--acento);
 }
 
-
 .prepTime {
     background-color: hsl(330, 100%, 98%);
-    padding: 1em;
     border-radius: 0.7em;
+}
+
+.prepTime ul {
+    padding-left: 2.8em;
+}
+
+.prepTime ul li {
+    padding-left: 1em;
 }
 
 .prepTime h3 {
     color: var(--prep);
     padding-bottom: 0.5em;
+    padding-left: 1em;
 }
 
-.prepTime ul {
+/* .prepTime ul {
     padding: 0 2em;
     margin: 0em 0;
-}
+} */
 
 .prepTime ul li + li {
     margin-top: 0.5em;
@@ -79,9 +85,19 @@ table {
     border-collapse: collapse;
 }
 
+.liContainer {
+    margin-left: 1.5em;
+}
+
+.liContainer li {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
 td {
     text-align: center;
     padding: 0.6em 0;
+    /* border: 1px solid red; */
 }
 
 .nutrition_values {
